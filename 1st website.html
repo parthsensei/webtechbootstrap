@@ -1,0 +1,982 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>website</title>
+  </head>
+  <body>
+    <div id="wrapper">
+        <header class="header" style="display: block">
+        <div class="navbar navbar-default navbar-static-top" role="navigation" id="nav">
+        <div class="container">
+        <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Show menu</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <h5><a class="header-logo" href="/" title="Read Novel Online Full"><img src="/img/logo.png" alt="Read Novel Online Full">
+        Novel Bin </a>
+        </h5>
+        </div>
+        <div class="navbar-collapse collapse">
+        <ul class="control nav navbar-nav ">
+         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title=""><span class="glyphicon glyphicon-list"></span> Novel List <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+        <li><a href="https://novelbin.net/sort/daily-update-novel/" title="Latest Release">Latest Release</a></li>
+        <li><a href="https://novelbin.net/sort/h/" title="Hot Novel">Hot Novel</a></li>
+        <li><a href="https://novelbin.net/sort/c/" title="Completed Novel">Completed Novel</a></li>
+        <li><a href="https://novelbin.net/sort/p/" title="Most Popular">Most Popular</a></li>
+        </ul>
+        </li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title=""><span class="glyphicon glyphicon-list"></span> Genre <span class="caret"></span></a>
+        <div class="dropdown-menu multi-column">
+        <div class="row">
+        <div class="col-md-4">
+        <ul class="dropdown-menu">
+        <li><a href="/gen/action" title="Action">Action</a></li>
+        <li><a href="/gen/adult" title="Adult">Adult</a></li>
+        <li><a href="/gen/adventure" title="Adventure">Adventure</a></li>
+        <li><a href="/gen/anime" title="Anime">Anime</a></li>
+        <li><a href="/gen/arts" title="Arts">Arts</a></li>
+        <li><a href="/gen/comedy" title="Comedy">Comedy</a></li>
+        <li><a href="/gen/drama" title="Drama">Drama</a></li>
+        <li><a href="/gen/eastern" title="Eastern">Eastern</a></li>
+        <li><a href="/gen/ecchi" title="Ecchi">Ecchi</a></li>
+        <li><a href="/gen/fan-fiction" title="Fan-fiction">Fan-fiction</a></li>
+        <li><a href="/gen/fantasy" title="Fantasy">Fantasy</a></li>
+        <li><a href="/gen/game" title="Game">Game</a></li>
+        <li><a href="/gen/gender-bender" title="Gender bender">Gender bender</a></li>
+        <li><a href="/gen/harem" title="Harem">Harem</a></li>
+        <li><a href="/gen/historical" title="Historical">Historical</a></li>
+        <li><a href="/gen/horror" title="Horror">Horror</a></li>
+        <li><a href="/gen/isekai" title="Isekai">Isekai</a></li>
+        <li><a href="/gen/josei" title="Josei">Josei</a></li>
+        </ul>
+        </div>
+        <div class="col-md-4">
+        <ul class="dropdown-menu">
+        <li><a href="/gen/lgbt+" title="Lgbt+">Lgbt+</a></li>
+        <li><a href="/gen/magic" title="Magic">Magic</a></li>
+        <li><a href="/gen/magical-realism" title="Magical realism">Magical realism</a></li>
+        <li><a href="/gen/manhua" title="Manhua">Manhua</a></li>
+        <li><a href="/gen/martial-arts" title="Martial arts">Martial arts</a></li>
+        <li><a href="/gen/mature" title="Mature">Mature</a></li>
+        <li><a href="/gen/mecha" title="Mecha">Mecha</a></li>
+        <li><a href="/gen/military" title="Military">Military</a></li>
+        <li><a href="/gen/modern-life" title="Modern life">Modern life</a></li>
+        <li><a href="/gen/movies" title="Movies">Movies</a></li>
+        <li><a href="/gen/mystery" title="Mystery">Mystery</a></li>
+        <li><a href="/gen/psychological" title="Psychological">Psychological</a></li>
+        <li><a href="/gen/realistic-fiction" title="Realistic fiction">Realistic fiction</a></li>
+        <li><a href="/gen/reincarnation" title="Reincarnation">Reincarnation</a></li>
+        <li><a href="/gen/romance" title="Romance">Romance</a></li>
+        <li><a href="/gen/school-life" title="School life">School life</a></li>
+        <li><a href="/gen/sci-fi" title="Sci-fi">Sci-fi</a></li>
+        <li><a href="/gen/seinen" title="Seinen">Seinen</a></li>
+        </ul>
+        </div>
+        <div class="col-md-4">
+        <ul class="dropdown-menu">
+        <li><a href="/gen/shoujo" title="Shoujo">Shoujo</a></li>
+        <li><a href="/gen/shoujo-ai" title="Shoujo ai">Shoujo ai</a></li>
+        <li><a href="/gen/shounen" title="Shounen">Shounen</a></li>
+        <li><a href="/gen/shounen-ai" title="Shounen ai">Shounen ai</a></li>
+        <li><a href="/gen/slice-of-life" title="Slice of life">Slice of life</a></li>
+        <li><a href="/gen/smut" title="Smut">Smut</a></li>
+        <li><a href="/gen/sports" title="Sports">Sports</a></li>
+        <li><a href="/gen/supernatural" title="Supernatural">Supernatural</a></li>
+        <li><a href="/gen/system" title="System">System</a></li>
+        <li><a href="/gen/tragedy" title="Tragedy">Tragedy</a></li>
+        <li><a href="/gen/urban-life" title="Urban life">Urban life</a></li>
+        <li><a href="/gen/video-games" title="Video games">Video games</a></li>
+        <li><a href="/gen/war" title="War">War</a></li>
+        <li><a href="/gen/wuxia" title="Wuxia">Wuxia</a></li>
+        <li><a href="/gen/xianxia" title="Xianxia">Xianxia</a></li>
+        <li><a href="/gen/xuanhuan" title="Xuanhuan">Xuanhuan</a></li>
+        <li><a href="/gen/yaoi" title="Yaoi">Yaoi</a></li>
+        <li><a href="/gen/yuri" title="Yuri">Yuri</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </li>
+        <li class="dropdown" id="options"><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="glyphicon glyphicon-cog"></span>
+        Options <span class="caret"></span></a>
+        <div class="dropdown-menu dropdown-menu-right settings">
+        <form class="form-horizontal">
+        <div class="form-group form-group-sm"><label class="col-sm-2 col-md-5 control-label" for="option-background">Background</label>
+        <div class="col-sm-5 col-md-7"><select class="form-control" id="option-background">
+        <option value="#F4F4F4">Light gray</option>
+        <option value="#E9EBEE">Light blue</option>
+        <option value="#F4F4E4">Light yellow</option>
+        <option value="#EAE4D3">Sepia</option>
+        <option value="#D5D8DC">Dark blue</option>
+        <option value="#FAFAC8">Dark yellow</option>
+        <option value="#EFEFAB">Wood grain</option>
+        <option value="#FFF">White</option>
+        <option value="#232323">Dark</option>
+        </select></div>
+        </div>
+        <div class="form-group form-group-sm"><label class="col-sm-2 col-md-5 control-label" for="option-font-family">Font family</label>
+        <div class="col-sm-5 col-md-7"><select class="form-control" id="option-font-family">
+        <option value="'Palatino Linotype', sans-serif">Palatino Linotype</option>
+        <option value="Bookerly, sans-serif">Bookerly</option>
+        <option value="Minion, sans-serif">Minion</option>
+        <option value="'Segoe UI', sans-serif">Segoe UI</option>
+        <option value="Roboto, sans-serif">Roboto</option>
+        <option value="'Roboto Condensed', sans-serif">Roboto Condensed</option>
+        <option value="'Patrick Hand', sans-serif">Patrick Hand</option>
+        <option value="'Noticia Text', sans-serif">Noticia Text</option>
+        <option value="'Times New Roman', sans-serif">Times New Roman</option>
+        <option value="Verdana, sans-serif">Verdana</option>
+        <option value="Tahoma, sans-serif">Tahoma</option>
+        <option value="Arial, sans-serif">Arial</option>
+        </select></div>
+        </div>
+        <div class="form-group form-group-sm"><label class="col-sm-2 col-md-5 control-label" for="option-font-size">Font size</label>
+        <div class="col-sm-5 col-md-7"><select class="form-control" id="option-font-size">
+        <option value="16px">16</option>
+        <option value="18px">18</option>
+        <option value="20px">20</option>
+        <option value="22px">22</option>
+        <option value="24px">24</option>
+        <option value="26px">26</option>
+        <option value="28px">28</option>
+        <option value="30px">30</option>
+        <option value="32px">32</option>
+        <option value="34px">34</option>
+        <option value="36px">36</option>
+        <option value="38px">38</option>
+        <option value="40px">40</option>
+        </select></div>
+        </div>
+        <div class="form-group form-group-sm"><label class="col-sm-2 col-md-5 control-label" for="option-line-height">Line height</label>
+        <div class="col-sm-5 col-md-7"><select class="form-control" id="option-line-height">
+        <option value="100%">100%</option>
+        <option value="120%">120%</option>
+        <option value="140%">140%</option>
+        <option value="160%">160%</option>
+        <option value="180%">180%</option>
+        <option value="200%">200%</option>
+        </select></div>
+        </div>
+        <div class="form-group form-group-sm"><label class="col-sm-2 col-md-5 control-label">Full frame</label>
+        <div class="col-sm-5 col-md-7"><label class="radio-inline" for="fluid-yes"><input type="radio" name="fluid-switch" id="fluid-yes" value="yes">
+        Yes</label><label class="radio-inline" for="fluid-no"><input type="radio" name="fluid-switch" id="fluid-no" value="no" checked=""> No</label>
+        </div>
+        </div>
+        <div class="form-group form-group-sm"><label class="col-sm-2 col-md-5 control-label">No
+        line break</label>
+        <div class="col-sm-5 col-md-7"><label class="radio-inline" for="onebreak-yes"><input type="radio" name="onebreak-switch" id="onebreak-yes" value="yes">
+        Yes</label><label class="radio-inline" for="onebreak-no"><input type="radio" name="onebreak-switch" id="onebreak-no" value="no" checked="">
+        No</label></div>
+        </div>
+        </form>
+        </div>
+        </li>
+        </ul>
+        <form class="navbar-form navbar-right" action="/search">
+        <div class="input-group search-holder"><input class="form-control" id="search-input" type="search" name="keyword" placeholder="Search Novel...">
+        <div class="input-group-btn"><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button></div>
+        </div>
+        <div class="list-group list-search-res hide"></div>
+        </form>
+        </div>
+        </div>
+        </div>
+        </header> <main id="container" class="" style="">
+        <div class="navbar-breadcrumb" style="display: block">
+        <div class="container breadcrumb-container">
+        <h1>Read light novel, web novel, korean novel and chinese novel online for free. You can find hundreds of english translated light novel, web novel, korean novel and chinese novel which are daily updated! Best books to read online - Free light novel online.</h1>
+        </div>
+        </div>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "url": "https://novelbin.net/",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://novelbin.net//search?keyword={keyword}",
+                    "query-input": "required name=keyword"
+                }
+            }
+        </script>
+        <div class="container">
+        <div class="alert alert-purple" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+        ×</button>
+        <span class="glyphicon glyphicon-certificate"></span>
+        Attention all readers! We have an exciting announcement to make regarding novelbin.net. Due to copyright reasons and our commitment to protecting intellectual property, we have transitioned to a brand new platform - <a style="color: white;" href="https://novelusb.com"><b>NovelUsb.Com</b></a>. This move ensures that you can continue enjoying a wide range of captivating stories while upholding the rights of authors and creators. Join us on novelusb.com today and explore an extensive collection of novels, short stories, and comics. We appreciate your understanding and support as we make this transition, and we look forward to providing you with an enhanced reading experience.
+        </div>
+        </div>
+        <div class="container" id="index-novel-hot">
+        <div class="header-list">
+        <h2><a href="https://novelbin.net/sort/h/" title="Hot Novel">Hot Novel</a></h2><a href="https://novelbin.net/sort/h/" title="Hot Novel"><span class="glyphicon glyphicon-fire"></span></a><select id="hot-genre-select" class="form-control new-select">
+        <option value="all">All</option>
+        <option value="ACTION">ACTION</option>
+        <option value="ADULT">ADULT</option>
+        <option value="ADVENTURE">ADVENTURE</option>
+        <option value="ANIME">ANIME</option>
+        <option value="ARTS">ARTS</option>
+        <option value="COMEDY">COMEDY</option>
+        <option value="DRAMA">DRAMA</option>
+        <option value="EASTERN">EASTERN</option>
+        <option value="ECCHI">ECCHI</option>
+        <option value="FAN-FICTION">FAN-FICTION</option>
+        <option value="FANTASY">FANTASY</option>
+        <option value="GAME">GAME</option>
+        <option value="GENDER BENDER">GENDER BENDER</option>
+        <option value="HAREM">HAREM</option>
+        <option value="HISTORICAL">HISTORICAL</option>
+        <option value="HORROR">HORROR</option>
+        <option value="ISEKAI">ISEKAI</option>
+        <option value="JOSEI">JOSEI</option>
+        <option value="LGBT+">LGBT+</option>
+        <option value="MAGIC">MAGIC</option>
+        <option value="MAGICAL REALISM">MAGICAL REALISM</option>
+        <option value="MANHUA">MANHUA</option>
+        <option value="MARTIAL ARTS">MARTIAL ARTS</option>
+        <option value="MATURE">MATURE</option>
+        <option value="MECHA">MECHA</option>
+        <option value="MILITARY">MILITARY</option>
+        <option value="MODERN LIFE">MODERN LIFE</option>
+        <option value="MOVIES">MOVIES</option>
+        <option value="MYSTERY">MYSTERY</option>
+        <option value="PSYCHOLOGICAL">PSYCHOLOGICAL</option>
+        <option value="REALISTIC FICTION">REALISTIC FICTION</option>
+        <option value="REINCARNATION">REINCARNATION</option>
+        <option value="ROMANCE">ROMANCE</option>
+        <option value="SCHOOL LIFE">SCHOOL LIFE</option>
+        <option value="SCI-FI">SCI-FI</option>
+        <option value="SEINEN">SEINEN</option>
+        <option value="SHOUJO">SHOUJO</option>
+        <option value="SHOUJO AI">SHOUJO AI</option>
+        <option value="SHOUNEN">SHOUNEN</option>
+        <option value="SHOUNEN AI">SHOUNEN AI</option>
+        <option value="SLICE OF LIFE">SLICE OF LIFE</option>
+        <option value="SMUT">SMUT</option>
+        <option value="SPORTS">SPORTS</option>
+        <option value="SUPERNATURAL">SUPERNATURAL</option>
+        <option value="SYSTEM">SYSTEM</option>
+        <option value="TRAGEDY">TRAGEDY</option>
+        <option value="URBAN LIFE">URBAN LIFE</option>
+        <option value="VIDEO GAMES">VIDEO GAMES</option>
+        <option value="WAR">WAR</option>
+        <option value="WUXIA">WUXIA</option>
+        <option value="XIANXIA">XIANXIA</option>
+        <option value="XUANHUAN">XUANHUAN</option>
+        <option value="YAOI">YAOI</option>
+        <option value="YURI">YURI</option>
+        </select>
+        </div>
+        <div class="index-novel">
+        <div class="item top-1"><a href="https://novelbin.net/n/war-sovereign-soaring-the-heavens-novel-nov-1576015052" title="War Sovereign Soaring The Heavens">
+        <img src="https://media.novelbin.net/novel/war-sovereign-soaring-the-heavens-novel.jpg" alt="War Sovereign Soaring The Heavens" class="img-responsive item-img">
+        <div class="title">
+        <h3>War Sovereign Soaring The Heavens</h3>
+        </div>
+        </a></div>
+        <div class="item top-2"><a href="https://novelbin.net/n/the-mech-touch-nov-1294139348" title="The Mech Touch">
+        <img src="https://media.novelbin.net/novel_150_223/the-mech-touch.jpg" alt="The Mech Touch" class="img-responsive item-img">
+        <div class="title">
+        <h3>The Mech Touch</h3>
+        </div>
+        </a></div>
+        <div class="item top-3"><a href="https://novelbin.net/n/reincarnated-with-the-strongest-system-nov-723770936" title="Reincarnated With The Strongest System">
+        <img src="https://media.novelbin.net/novel_150_223/reincarnated-with-the-strongest-system.jpg" alt="Reincarnated With The Strongest System" class="img-responsive item-img">
+        <div class="title">
+        <h3>Reincarnated With The Strongest System</h3>
+        </div>
+        </a></div>
+        <div class="item top-4"><a href="https://novelbin.net/n/shadow-slave-nov349033611" title="Shadow Slave">
+        <img src="https://media.novelbin.net/novel_150_223/shadow-slave.jpg" alt="Shadow Slave" class="img-responsive item-img">
+        <div class="title">
+        <h3>Shadow Slave</h3>
+        </div>
+        </a></div>
+        <div class="item top-5"><a href="https://novelbin.net/n/unrivaled-medicine-god-nov165670599" title="Unrivaled Medicine God">
+        <span class="full-label"></span>
+        <img src="https://media.novelbin.net/novel_150_223/unrivaled-medicine-god.jpg" alt="Unrivaled Medicine God" class="img-responsive item-img">
+        <div class="title">
+        <h3>Unrivaled Medicine God</h3>
+        </div>
+        </a></div>
+         <div class="item top-6"><a href="https://novelbin.net/n/omniscient-readers-viewpoint-nov13202669" title="Omniscient Reader's Viewpoint">
+        <span class="full-label"></span>
+        <img src="https://media.novelbin.net/novel_150_223/omniscient-readers-viewpoint.jpg" alt="Omniscient Reader's Viewpoint" class="img-responsive item-img">
+        <div class="title">
+        <h3>Omniscient Reader's Viewpoint</h3>
+        </div>
+        </a></div>
+        <div class="item top-7"><a href="https://novelbin.net/n/god-tier-farm-nov1415223377" title="God-tier Farm">
+        <img src="https://media.novelbin.net/novel_150_223/god-tier-farm.jpg" alt="God-tier Farm" class="img-responsive item-img">
+        <div class="title">
+        <h3>God-tier Farm</h3>
+        </div>
+        </a></div>
+        <div class="item top-8"><a href="https://novelbin.net/n/mr-gu-your-replacement-bride-is-a-big-shot-nov1419056582" title="Mr. Gu, Your Replacement Bride Is A Big Shot!">
+        <img src="https://media.novelbin.net/novel_150_223/mr-gu-your-replacement-bride-is-a-big-shot.jpg" alt="Mr. Gu, Your Replacement Bride Is A Big Shot!" class="img-responsive item-img">
+        <div class="title">
+        <h3>Mr. Gu, Your Replacement Bride Is A Big Shot!</h3>
+        </div>
+        </a></div>
+        <div class="item top-9"><a href="https://novelbin.net/n/my-three-wives-are-beautiful-vampires-novel-nov1673913269" title="My Three Wives Are Beautiful Vampires">
+        <img src="https://media.novelbin.net/novel_150_223/my-three-wives-are-beautiful-vampires-novel.jpg" alt="My Three Wives Are Beautiful Vampires" class="img-responsive item-img">
+        <div class="title">
+        <h3>My Three Wives Are Beautiful Vampires</h3>
+        </div>
+        </a></div>
+        <div class="item top-10"><a href="https://novelbin.net/n/global-game-afk-in-the-zombie-apocalypse-game-nov424485518" title="Global Game: AFK In The Zombie Apocalypse Game">
+        <img src="https://media.novelbin.net/novel_150_223/global-game-afk-in-the-zombie-apocalypse-game.jpg" alt="Global Game: AFK In The Zombie Apocalypse Game" class="img-responsive item-img">
+        <div class="title">
+        <h3>Global Game: AFK In The Zombie Apocalypse Game</h3>
+        </div>
+        </a></div>
+        <div class="item top-11"><a href="https://novelbin.net/n/legend-of-swordsman-nov-1821702289" title="Legend of Swordsman">
+        <img src="https://media.novelbin.net/novel_150_223/legend-of-swordsman.jpg" alt="Legend of Swordsman" class="img-responsive item-img">
+        <div class="title">
+        <h3>Legend of Swordsman</h3>
+        </div>
+        </a></div>
+        <div class="item top-12"><a href="https://novelbin.net/n/the-novels-extra-nov202680567" title="The Novel's Extra">
+        <span class="full-label"></span>
+        <img src="https://media.novelbin.net/novel_150_223/the-novels-extra.jpg" alt="The Novel's Extra" class="img-responsive item-img">
+        <div class="title">
+        <h3>The Novel's Extra</h3>
+        </div>
+        </a></div>
+        <div class="item top-13"><a href="https://novelbin.net/n/fey-evolution-merchant-nov1259330894" title="Fey Evolution Merchant">
+        <img src="https://media.novelbin.net/novel_150_223/fey-evolution-merchant.jpg" alt="Fey Evolution Merchant" class="img-responsive item-img">
+        <div class="title">
+        <h3>Fey Evolution Merchant</h3>
+        </div>
+        </a></div>
+        </div>
+        </div>
+        <div class="container" id="novel-list-index">
+        <div id="novel-history-main" class="list list-novel list-history col-xs-12 col-sm-12 col-md-8 col-novel-main hidden-md-block hidden-lg-block">
+        </div>
+        <div class="list list-novel list-new col-xs-12 col-sm-12 col-md-8 col-novel-main">
+        <div class="header-list">
+        <h2><a href="https://novelbin.net/sort/daily-update-novel/" title="">Latest Release</a></h2><a href="https://novelbin.net/sort/daily-update-novel/" title=""><span class="glyphicon glyphicon-menu-right"></span></a><select id="new-genre-select" class="form-control new-select">
+        <option value="all">All</option>
+        <option value="ACTION">ACTION</option>
+        <option value="ADULT">ADULT</option>
+        <option value="ADVENTURE">ADVENTURE</option>
+        <option value="ANIME">ANIME</option>
+        <option value="ARTS">ARTS</option>
+        <option value="COMEDY">COMEDY</option>
+        <option value="DRAMA">DRAMA</option>
+        <option value="EASTERN">EASTERN</option>
+        <option value="ECCHI">ECCHI</option>
+        <option value="FAN-FICTION">FAN-FICTION</option>
+        <option value="FANTASY">FANTASY</option>
+        <option value="GAME">GAME</option>
+        <option value="GENDER BENDER">GENDER BENDER</option>
+        <option value="HAREM">HAREM</option>
+        <option value="HISTORICAL">HISTORICAL</option>
+        <option value="HORROR">HORROR</option>
+        <option value="ISEKAI">ISEKAI</option>
+        <option value="JOSEI">JOSEI</option>
+        <option value="LGBT+">LGBT+</option>
+        <option value="MAGIC">MAGIC</option>
+        <option value="MAGICAL REALISM">MAGICAL REALISM</option>
+        <option value="MANHUA">MANHUA</option>
+        <option value="MARTIAL ARTS">MARTIAL ARTS</option>
+        <option value="MATURE">MATURE</option>
+        <option value="MECHA">MECHA</option>
+        <option value="MILITARY">MILITARY</option>
+        <option value="MODERN LIFE">MODERN LIFE</option>
+        <option value="MOVIES">MOVIES</option>
+        <option value="MYSTERY">MYSTERY</option>
+        <option value="PSYCHOLOGICAL">PSYCHOLOGICAL</option>
+        <option value="REALISTIC FICTION">REALISTIC FICTION</option>
+        <option value="REINCARNATION">REINCARNATION</option>
+        <option value="ROMANCE">ROMANCE</option>
+        <option value="SCHOOL LIFE">SCHOOL LIFE</option>
+        <option value="SCI-FI">SCI-FI</option>
+        <option value="SEINEN">SEINEN</option>
+        <option value="SHOUJO">SHOUJO</option>
+        <option value="SHOUJO AI">SHOUJO AI</option>
+        <option value="SHOUNEN">SHOUNEN</option>
+        <option value="SHOUNEN AI">SHOUNEN AI</option>
+        <option value="SLICE OF LIFE">SLICE OF LIFE</option>
+        <option value="SMUT">SMUT</option>
+        <option value="SPORTS">SPORTS</option>
+        <option value="SUPERNATURAL">SUPERNATURAL</option>
+        <option value="SYSTEM">SYSTEM</option>
+        <option value="TRAGEDY">TRAGEDY</option>
+        <option value="URBAN LIFE">URBAN LIFE</option>
+        <option value="VIDEO GAMES">VIDEO GAMES</option>
+        <option value="WAR">WAR</option>
+        <option value="WUXIA">WUXIA</option>
+        <option value="XIANXIA">XIANXIA</option>
+        <option value="XUANHUAN">XUANHUAN</option>
+        <option value="YAOI">YAOI</option>
+        <option value="YURI">YURI</option>
+        </select>
+        </div>
+        <div class="list index-novel">
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/chaotic-sword-god-nov755620699" title="Chaotic Sword God">Chaotic Sword God</a></h3>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/xuanhuan">Xuanhuan</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/martial-arts">Martial arts</a> ,
+        <a href="https://novelbin.net/gen/harem">Harem</a> ,
+        <a href="https://novelbin.net/gen/tragedy">Tragedy</a> ,
+        <a href="https://novelbin.net/gen/mature">Mature</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/chaotic-sword-god-nov755620699/cchapter-3498-the-battles-in-the-ring-1" title="Chapter 3498: The Battles in the Ring (1)"><span class="chr-text">
+        Chapter 3498: The Battles in the Ring (1)</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">7 minutes ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/shoujo-grand-summoning-nov1610390388" title="Shoujo Grand Summoning">Shoujo Grand Summoning</a></h3>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/game">Game</a> ,
+        <a href="https://novelbin.net/gen/xuanhuan">Xuanhuan</a> ,
+        <a href="https://novelbin.net/gen/adult">Adult</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/ecchi">Ecchi</a> ,
+        <a href="https://novelbin.net/gen/comedy">Comedy</a> ,
+        <a href="https://novelbin.net/gen/martial-arts">Martial arts</a> ,
+        <a href="https://novelbin.net/gen/harem">Harem</a> ,
+        <a href="https://novelbin.net/gen/mature">Mature</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/shoujo-grand-summoning-nov1610390388/cchapter-1551-no-holding-back-anymore" title="Chapter 1551: No holding back anymore"><span class="chr-text">
+        Chapter 1551: No holding back anymore</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/online-game-unlimited-buff-talent-from-the-beginning-nov-1856904525" title="Online Game: Unlimited Buff Talent From The Beginning">Online Game: Unlimited Buff Talent From The Beginning</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/game">Game</a> ,
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/sci-fi">Sci-fi</a> ,
+        <a href="https://novelbin.net/gen/supernatural">Supernatural</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/online-game-unlimited-buff-talent-from-the-beginning-nov-1856904525/cchapter-357-357-find-something-to-do-1" title="Chapter 357 - 357 Find Something to Do! (1)"><span class="chr-text">
+        Chapter 357 - 357 Find Something to Do! (1)</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/fey-evolution-merchant-nov1259330894" title="Fey Evolution Merchant">Fey Evolution Merchant</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/fey-evolution-merchant-nov1259330894/cchapter-2227-2227-arent-you-worried-that-your-body-wont-be-able-to-keep-up-with-all-the-hard-work" title="Chapter 2227 - 2227 Aren’t You Worried That Your Body Won’t Be Able to Keep Up With All the Hard Work?"><span class="chr-text">
+        Chapter 2227 - 2227 Aren’t You Worried That Your Body Won’t Be Able to Keep Up With All the Hard Work?</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/what-if-i-cant-die-nov1789646275" title="What If I Can't Die?">What If I Can't Die?</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/eastern">Eastern</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/what-if-i-cant-die-nov1789646275/cchapter-242-242-water-spirit-root-caused-by-the-demon-fire" title="Chapter 242 - 242 Water Spirit Root Caused by the Demon Fire"><span class="chr-text">
+        Chapter 242 - 242 Water Spirit Root Caused by the Demon Fire</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/global-game-afk-in-the-zombie-apocalypse-game-nov424485518" title="Global Game: AFK In The Zombie Apocalypse Game">Global Game: AFK In The Zombie Apocalypse Game</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/game">Game</a> ,
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/mystery">Mystery</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/global-game-afk-in-the-zombie-apocalypse-game-nov424485518/cchapter-1464-1464-sneaking-in" title="Chapter 1464 - 1464 Sneaking In"><span class="chr-text">
+        Chapter 1464 - 1464 Sneaking In</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/i-made-beast-taming-widespread-across-the-globe-nov-29949566" title="I Made Beast-taming Widespread Across The Globe">I Made Beast-taming Widespread Across The Globe</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+         <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/comedy">Comedy</a> ,
+        <a href="https://novelbin.net/gen/eastern">Eastern</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/romance">Romance</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/i-made-beast-taming-widespread-across-the-globe-nov-29949566/cchapter-414-414-the-pattern-has-to-be-opened" title="Chapter 414 - 414 The Pattern Has to Be Opened!"><span class="chr-text">
+        Chapter 414 - 414 The Pattern Has to Be Opened!</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/as-an-immortal-i-only-learn-forbidden-skills-nov-1066226200" title="As An Immortal, I Only Learn Forbidden Skills">As An Immortal, I Only Learn Forbidden Skills</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/eastern">Eastern</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/as-an-immortal-i-only-learn-forbidden-skills-nov-1066226200/cchapter-459-459-shifting-the-blame" title="Chapter 459 - 459 Shifting the Blame"><span class="chr-text">
+        Chapter 459 - 459 Shifting the Blame</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/top-student-experience-infinite-occupations-nov1103840233" title="Top Student: Experience Infinite Occupations">Top Student: Experience Infinite Occupations</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/reincarnation">Reincarnation</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/top-student-experience-infinite-occupations-nov1103840233/cchapter-277-277-meteorite" title="Chapter 277 - 277 Meteorite"><span class="chr-text">
+        Chapter 277 - 277 Meteorite</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/my-two-sided-cultivation-starting-from-collecting-experiences-nov1869584972" title="My Two-sided Cultivation: Starting From Collecting Experiences">My Two-sided Cultivation: Starting From Collecting Experiences</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/comedy">Comedy</a> ,
+        <a href="https://novelbin.net/gen/eastern">Eastern</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/my-two-sided-cultivation-starting-from-collecting-experiences-nov1869584972/cchapter-401-401-emperors-force" title="Chapter 401 - 401 Emperor’s Force"><span class="chr-text">
+        Chapter 401 - 401 Emperor’s Force</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/permanent-martial-arts-nov1817354367" title="Permanent Martial Arts">Permanent Martial Arts</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/eastern">Eastern</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/permanent-martial-arts-nov1817354367/cchapter-1045-1045-ive-killed-even-perfected-deities" title="Chapter 1045 - 1045 I’ve Killed Even Perfected Deities!"><span class="chr-text">
+        Chapter 1045 - 1045 I’ve Killed Even Perfected Deities!</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/god-of-fishing-nov2082772198" title="God of Fishing">God of Fishing</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/romance">Romance</a> ,
+        <a href="https://novelbin.net/gen/action">Action</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/god-of-fishing-nov2082772198/cchapter-3199-3199-death-of-gods-3" title="Chapter 3199 - 3199 Death of Gods (3)"><span class="chr-text">
+        Chapter 3199 - 3199 Death of Gods (3)</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/immortal-in-the-magic-world-nov-1783575575" title="Immortal In The Magic World">Immortal In The Magic World</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/eastern">Eastern</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/action">Action</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/immortal-in-the-magic-world-nov-1783575575/cchapter-548-548-eli-in-action-alidas-shock" title="Chapter 548 - 548 Eli in Action, Alida’s Shock"><span class="chr-text">
+        Chapter 548 - 548 Eli in Action, Alida’s Shock</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/global-lord-100-drop-rate-nov-13637163" title="Global Lord: 100\% Drop Rate">Global Lord: 100\% Drop Rate</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/global-lord-100-drop-rate-nov-13637163/cchapter-578-578-arnos-divine-outfit-1" title="Chapter 578 - 578 Arno’s Divine Outfit (1)"><span class="chr-text">
+        Chapter 578 - 578 Arno’s Divine Outfit (1)</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/global-dungeon-my-support-is-too-strong-nov559425746" title="Global Dungeon: My Support Is Too Strong">Global Dungeon: My Support Is Too Strong</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/mystery">Mystery</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/global-dungeon-my-support-is-too-strong-nov559425746/cchapter-630-630-zhu-family-ancestor" title="Chapter 630 - 630 Zhu Family Ancestor"><span class="chr-text">
+        Chapter 630 - 630 Zhu Family Ancestor</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/signing-in-for-eight-years-i-was-exposed-as-a-zillionaire-nov1783503548" title="Signing In For Eight Years, I Was Exposed As A Zillionaire!">Signing In For Eight Years, I Was Exposed As A Zillionaire!</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/mystery">Mystery</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/signing-in-for-eight-years-i-was-exposed-as-a-zillionaire-nov1783503548/cchapter-484-484-tianjing-branch" title="Chapter 484 - 484 Tianjing Branch"><span class="chr-text">
+        Chapter 484 - 484 Tianjing Branch</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/found-100-million-in-my-rented-apartment-nov-1390844097" title="Found 100 Million In My Rented Apartment">Found 100 Million In My Rented Apartment</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/mystery">Mystery</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/found-100-million-in-my-rented-apartment-nov-1390844097/cchapter-496-496-who-isnt-a-little-princess" title="Chapter 496 - 496 Who Isn’t a Little Princess?"><span class="chr-text">
+        Chapter 496 - 496 Who Isn’t a Little Princess?</span></a></div>
+         <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/game-transmigration-saving-the-world-again-1000-years-later-nov-1485736877" title="Game Transmigration: Saving the World Again 1000 Years Later">Game Transmigration: Saving the World Again 1000 Years Later</a></h3>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/game-transmigration-saving-the-world-again-1000-years-later-nov-1485736877/cchapter-330-330-feast" title="Chapter 330 - 330 Feast"><span class="chr-text">
+        Chapter 330 - 330 Feast</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/first-day-in-game-i-got-ten-billion-from-infinite-number-of-check-ins-nov-1898580512" title="First Day In Game, I Got Ten Billion From Infinite Number Of Check-ins">First Day In Game, I Got Ten Billion From Infinite Number Of Check-ins</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/mystery">Mystery</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/first-day-in-game-i-got-ten-billion-from-infinite-number-of-check-ins-nov-1898580512/cchapter-433-433-the-lucky-one" title="Chapter 433 - 433 The Lucky One"><span class="chr-text">
+        Chapter 433 - 433 The Lucky One</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">an hour ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/quick-transmigration-female-lead-male-god-never-stopping-nov-1581991984" title="Quick Transmigration Female Lead: Male God, Never Stopping">Quick Transmigration Female Lead: Male God, Never Stopping</a></h3>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/romance">Romance</a> ,
+        <a href="https://novelbin.net/gen/school-life">School life</a> ,
+        <a href="https://novelbin.net/gen/comedy">Comedy</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/quick-transmigration-female-lead-male-god-never-stopping-nov-1581991984/cchapter-2725-silly-and-sweet-the-lost-granddaughter-of-the-rich-man-76" title="Chapter 2725: Silly and sweet: The lost granddaughter of the rich man (76)"><span class="chr-text">
+        Chapter 2725: Silly and sweet: The lost granddaughter of the rich man (76)</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">2 hours ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/leveling-up-and-becoming-undefeatable-nov1568317655" title="Leveling Up And Becoming Undefeatable">Leveling Up And Becoming Undefeatable</a></h3>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/harem">Harem</a> ,
+        <a href="https://novelbin.net/gen/martial-arts">Martial arts</a> ,
+        <a href="https://novelbin.net/gen/xuanhuan">Xuanhuan</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/leveling-up-and-becoming-undefeatable-nov1568317655/cchapter-907-meeting-again" title="Chapter 907: Meeting Again"><span class="chr-text">
+        Chapter 907: Meeting Again</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">3 hours ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/online-game-you-call-him-a-newbie-nov301319244" title="Online Game: You Call Him A Newbie?">Online Game: You Call Him A Newbie?</a></h3>
+        <span class="label-title label-hot"> </span>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/game">Game</a> ,
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/online-game-you-call-him-a-newbie-nov301319244/cchapter-346-346-strange-tree-root-2" title="Chapter 346 - 346 Strange Tree Root (2)"><span class="chr-text">
+        Chapter 346 - 346 Strange Tree Root (2)</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">3 hours ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+         <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/i-have-a-city-in-an-alternate-world-nov-255377389" title="I Have A City In An Alternate World">I Have A City In An Alternate World</a></h3>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/adventure">Adventure</a> ,
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/sci-fi">Sci-fi</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/i-have-a-city-in-an-alternate-world-nov-255377389/cchapter-2412-2412-the-guide-1" title="Chapter 2412 - 2412 The guide (1)"><span class="chr-text">
+        Chapter 2412 - 2412 The guide (1)</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">3 hours ago
+        </div>
+        </div>
+        <div class="row" itemscope="">
+        <div class="col-xs-9 col-sm-6 col-md-5 col-title"><span class="glyphicon glyphicon-chevron-right"></span>
+        <h3><a href="https://novelbin.net/n/dragon-who-controls-time-nov1365799516" title="Dragon Who Controls Time">Dragon Who Controls Time</a></h3>
+        </div>
+        <div class="hidden-xs col-sm-3 col-md-3 col-genre text-ccc">
+        <a href="https://novelbin.net/gen/fantasy">Fantasy</a> ,
+        <a href="https://novelbin.net/gen/xuanhuan">Xuanhuan</a> ,
+        <a href="https://novelbin.net/gen/action">Action</a> ,
+        <a href="https://novelbin.net/gen/mystery">Mystery</a>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-2 col-chap text-info"><a href="https://novelbin.net/n/dragon-who-controls-time-nov1365799516/cchapter-1485-1485-zeus-danger" title="Chapter 1485 - 1485 Zeus, Danger!"><span class="chr-text">
+        Chapter 1485 - 1485 Zeus, Danger!</span></a></div>
+        <div class="hidden-xs hidden-sm col-md-2 col-time text-ccc">3 hours ago
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="visible-md-block visible-lg-block col-md-4 text-center col-sidebar">
+        <div id="novel-history-sidebar" class="list list-novel list-history col-xs-12"></div>
+        <div class="list list-novel list-genre col-xs-12">
+        <div class="header-list">
+        <h4>Genres</h4>
+        </div>
+        <div class="row">
+        <div class="col-xs-6"><a href="/gen/action" title="Action">Action</a></div>
+        <div class="col-xs-6"><a href="/gen/adult" title="Adult">Adult</a></div>
+        <div class="col-xs-6"><a href="/gen/adventure" title="Adventure">Adventure</a></div>
+        <div class="col-xs-6"><a href="/gen/anime" title="Anime">Anime</a></div>
+        <div class="col-xs-6"><a href="/gen/arts" title="Arts">Arts</a></div>
+        <div class="col-xs-6"><a href="/gen/comedy" title="Comedy">Comedy</a></div>
+        <div class="col-xs-6"><a href="/gen/drama" title="Drama">Drama</a></div>
+         <div class="col-xs-6"><a href="/gen/eastern" title="Eastern">Eastern</a></div>
+        <div class="col-xs-6"><a href="/gen/ecchi" title="Ecchi">Ecchi</a></div>
+        <div class="col-xs-6"><a href="/gen/fan-fiction" title="Fan-fiction">Fan-fiction</a></div>
+        <div class="col-xs-6"><a href="/gen/fantasy" title="Fantasy">Fantasy</a></div>
+        <div class="col-xs-6"><a href="/gen/game" title="Game">Game</a></div>
+        <div class="col-xs-6"><a href="/gen/gender-bender" title="Gender bender">Gender bender</a></div>
+        <div class="col-xs-6"><a href="/gen/harem" title="Harem">Harem</a></div>
+        <div class="col-xs-6"><a href="/gen/historical" title="Historical">Historical</a></div>
+        <div class="col-xs-6"><a href="/gen/horror" title="Horror">Horror</a></div>
+        <div class="col-xs-6"><a href="/gen/isekai" title="Isekai">Isekai</a></div>
+        <div class="col-xs-6"><a href="/gen/josei" title="Josei">Josei</a></div>
+        <div class="col-xs-6"><a href="/gen/lgbt+" title="Lgbt+">Lgbt+</a></div>
+        <div class="col-xs-6"><a href="/gen/magic" title="Magic">Magic</a></div>
+        <div class="col-xs-6"><a href="/gen/magical-realism" title="Magical realism">Magical realism</a></div>
+        <div class="col-xs-6"><a href="/gen/manhua" title="Manhua">Manhua</a></div>
+        <div class="col-xs-6"><a href="/gen/martial-arts" title="Martial arts">Martial arts</a></div>
+        <div class="col-xs-6"><a href="/gen/mature" title="Mature">Mature</a></div>
+        <div class="col-xs-6"><a href="/gen/mecha" title="Mecha">Mecha</a></div>
+        <div class="col-xs-6"><a href="/gen/military" title="Military">Military</a></div>
+        <div class="col-xs-6"><a href="/gen/modern-life" title="Modern life">Modern life</a></div>
+        <div class="col-xs-6"><a href="/gen/movies" title="Movies">Movies</a></div>
+        <div class="col-xs-6"><a href="/gen/mystery" title="Mystery">Mystery</a></div>
+        <div class="col-xs-6"><a href="/gen/psychological" title="Psychological">Psychological</a></div>
+        <div class="col-xs-6"><a href="/gen/realistic-fiction" title="Realistic fiction">Realistic fiction</a></div>
+        <div class="col-xs-6"><a href="/gen/reincarnation" title="Reincarnation">Reincarnation</a></div>
+        <div class="col-xs-6"><a href="/gen/romance" title="Romance">Romance</a></div>
+        <div class="col-xs-6"><a href="/gen/school-life" title="School life">School life</a></div>
+        <div class="col-xs-6"><a href="/gen/sci-fi" title="Sci-fi">Sci-fi</a></div>
+        <div class="col-xs-6"><a href="/gen/seinen" title="Seinen">Seinen</a></div>
+        <div class="col-xs-6"><a href="/gen/shoujo" title="Shoujo">Shoujo</a></div>
+        <div class="col-xs-6"><a href="/gen/shoujo-ai" title="Shoujo ai">Shoujo ai</a></div>
+        <div class="col-xs-6"><a href="/gen/shounen" title="Shounen">Shounen</a></div>
+        <div class="col-xs-6"><a href="/gen/shounen-ai" title="Shounen ai">Shounen ai</a></div>
+        <div class="col-xs-6"><a href="/gen/slice-of-life" title="Slice of life">Slice of life</a></div>
+        <div class="col-xs-6"><a href="/gen/smut" title="Smut">Smut</a></div>
+        <div class="col-xs-6"><a href="/gen/sports" title="Sports">Sports</a></div>
+        <div class="col-xs-6"><a href="/gen/supernatural" title="Supernatural">Supernatural</a></div>
+        <div class="col-xs-6"><a href="/gen/system" title="System">System</a></div>
+        <div class="col-xs-6"><a href="/gen/tragedy" title="Tragedy">Tragedy</a></div>
+        <div class="col-xs-6"><a href="/gen/urban-life" title="Urban life">Urban life</a></div>
+        <div class="col-xs-6"><a href="/gen/video-games" title="Video games">Video games</a></div>
+        <div class="col-xs-6"><a href="/gen/war" title="War">War</a></div>
+        <div class="col-xs-6"><a href="/gen/wuxia" title="Wuxia">Wuxia</a></div>
+        <div class="col-xs-6"><a href="/gen/xianxia" title="Xianxia">Xianxia</a></div>
+        <div class="col-xs-6"><a href="/gen/xuanhuan" title="Xuanhuan">Xuanhuan</a></div>
+        <div class="col-xs-6"><a href="/gen/yaoi" title="Yaoi">Yaoi</a></div>
+        <div class="col-xs-6"><a href="/gen/yuri" title="Yuri">Yuri</a></div>
+        </div>
+        </div> </div>
+        </div>
+        <div class="container"></div>
+        <div class="container" id="index-novel-completed">
+        <div class="list list-thumb col-xs-12">
+        <div class="header-list">
+        <h2><a href="https://novelbin.net/sort/c/" title="Novel Completed">Novel Completed</a></h2><a href="https://novelbin.net/sort/c/" title="Novel Completed"><span class="glyphicon glyphicon-menu-right"></span></a>
+        </div>
+        <div class="row">
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/ending-maker-nov-1563884865" title="Ending Maker"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/ending-maker.jpg" alt="Ending Maker">
+        <div class="caption">
+        <h3>Ending Maker</h3><small class="btn-xs label-primary">Full -
+        634 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/aristocratic-shocking-love-the-first-lady-nov1364625741" title="Aristocratic Shocking Love: The First Lady"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/aristocratic-shocking-love-the-first-lady.jpg" alt="Aristocratic Shocking Love: The First Lady">
+        <div class="caption">
+        <h3>Aristocratic Shocking Love: The First Lady</h3><small class="btn-xs label-primary">Full -
+        1309 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/reverend-insanity-nov-691180074" title="Reverend Insanity"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/reverend-insanity.jpg" alt="Reverend Insanity">
+        <div class="caption">
+        <h3>Reverend Insanity</h3><small class="btn-xs label-primary">Full -
+        2334 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/perfect-secret-love-the-bad-new-wife-is-a-little-sweet-nov1765103804" title="Perfect Secret Love: The Bad New Wife is a Little Sweet"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/perfect-secret-love-the-bad-new-wife-is-a-little-sweet.jpg" alt="Perfect Secret Love: The Bad New Wife is a Little Sweet">
+        <div class="caption">
+        <h3>Perfect Secret Love: The Bad New Wife is a Little Sweet</h3><small class="btn-xs label-primary">Full -
+         2490 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/super-gene-optimization-fluid-nov-653450767" title="Super Gene Optimization Fluid"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/super-gene-optimization-fluid.jpg" alt="Super Gene Optimization Fluid">
+        <div class="caption">
+        <h3>Super Gene Optimization Fluid</h3><small class="btn-xs label-primary">Full -
+        1632 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/almighty-daughter-runs-the-world-nov-221097513" title="Almighty Daughter Runs The World"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/almighty-daughter-runs-the-world.jpg" alt="Almighty Daughter Runs The World">
+        <div class="caption">
+        <h3>Almighty Daughter Runs The World</h3><small class="btn-xs label-primary">Full -
+        2714 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/mr-president-dotes-on-his-wife-crazily-nov-927658575" title="Mr. President Dotes On His Wife Crazily"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/mr-president-dotes-on-his-wife-crazily.jpg" alt="Mr. President Dotes On His Wife Crazily">
+        <div class="caption">
+        <h3>Mr. President Dotes On His Wife Crazily</h3><small class="btn-xs label-primary">Full -
+        1503 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/gods-path-i-can-create-a-lot-of-cheats-through-mutation-nov-1261128401" title="God's Path: I Can Create A Lot Of Cheats Through Mutation"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/gods-path-i-can-create-a-lot-of-cheats-through-mutation.jpg" alt="God's Path: I Can Create A Lot Of Cheats Through Mutation">
+        <div class="caption">
+        <h3>God's Path: I Can Create A Lot Of Cheats Through Mutation</h3><small class="btn-xs label-primary">Full -
+        561 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/let-me-game-in-peace-nov892686303" title="Let Me Game in Peace"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/let-me-game-in-peace.jpg" alt="Let Me Game in Peace">
+        <div class="caption">
+        <h3>Let Me Game in Peace</h3><small class="btn-xs label-primary">Full -
+        1905 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/reborn-missy-an-adorable-wife-nov-1936857568" title="Reborn Missy An Adorable Wife"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/reborn-missy-an-adorable-wife.jpg" alt="Reborn Missy An Adorable Wife">
+        <div class="caption">
+        <h3>Reborn Missy An Adorable Wife</h3><small class="btn-xs label-primary">Full -
+        830 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/reincarnation-multi-skilled-goddess-is-so-beautiful-nov-251432679" title="Reincarnation: Multi-skilled Goddess Is So Beautiful!"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/reincarnation-multi-skilled-goddess-is-so-beautiful.jpg" alt="Reincarnation: Multi-skilled Goddess Is So Beautiful!">
+        <div class="caption">
+        <h3>Reincarnation: Multi-skilled Goddess Is So Beautiful!</h3><small class="btn-xs label-primary">Full -
+        1045 chapters</small>
+        </div>
+        </a></div>
+        <div class="col-xs-4 col-sm-3 col-md-2"><a href="https://novelbin.net/n/the-boss-lost-his-memory-and-only-remembers-me-nov1259831423" title="The Boss Lost His Memory and Only Remembers Me"><img style="max-width : 164px" src="https://media.novelbin.net/novel_164_245/the-boss-lost-his-memory-and-only-remembers-me.jpg" alt="The Boss Lost His Memory and Only Remembers Me">
+        <div class="caption">
+        <h3>The Boss Lost His Memory and Only Remembers Me</h3><small class="btn-xs label-primary">Full -
+        1477 chapters</small>
+        </div>
+        </a></div>
+        </div>
+        </div>
+        </div>
+        </main>
+        <footer class="footer ">
+        <div class="container">
+        <div class="hidden-xs col-sm-5"><strong>Novel Bin</strong>
+        Read light novel, web novel, korean novel and chinese novel online for free.
+        You can find hundreds of english translated light novel, web novel, korean novel and chinese novel which are
+        daily updated!
+        Read novels online, read light novel online, read online free, free light novel online.
+        <p>&nbsp;</p>
+        </div>
+        <ul class="col-xs-12 col-sm-7 list-unstyled">
+        <li class="text-right pull-right"><a href="https://novelbin.net/contact/" title="Contact">Contact</a> -
+        <a href="https://novelbin.net/policy/" title="ToS">ToS</a> -
+        <a href="/sitemap-index.xml" target="_blank">Sitemap</a><a class="backtop" href="#" rel="nofollow" title=""><span class="glyphicon glyphicon-upload"></span></a>
+        </li>
+        </ul>
+        </div>
+        </footer></div>
+    <!-- Just an image -->
+<
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
